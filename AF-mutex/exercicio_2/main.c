@@ -36,8 +36,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     
-    pthread_mutex_init(&matrix_mutex, NULL); // Inicializa o mutex 
-
     //Parseia argumentos
     tamanho_matriz = atoi(argv[1]);
     int num_threads = atoi(argv[2]);
